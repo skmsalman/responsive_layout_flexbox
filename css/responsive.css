@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+  }
+  .div1,
+  .div2 {
+    width: 94% !important;
+    /* margin-bottom: 20px; */
+  }
+
+  .div1 {
+    height: 30% !important;
+  }
+}

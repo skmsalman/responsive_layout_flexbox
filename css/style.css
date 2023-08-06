@@ -2,4 +2,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* common css end */
+.container {
+  height: 100vh;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.container div {
+  margin: 10px 10px 0 10px;
+}
+.div1 {
+  width: 30%;
+  height: 98%;
+  background: #d2d1d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.div2 {
+  width: 68%;
+  height: 98%;
+  background-color: #f5f4dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 30px;
+  text-transform: capitalize;
 }
